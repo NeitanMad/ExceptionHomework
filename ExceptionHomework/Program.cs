@@ -27,7 +27,7 @@ namespace ExceptionHomework
                     // Проверяем количество данных
                     if (data.Length != 6)
                     {
-                        throw new Exception("Неверное количество данных");
+                        throw new Exception($"Неверное количество данных. Ожидалось: 6 Было получено: {data.Length} ");
                     }
 
                     surname = data[0];
